@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/progress_circles.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/dd1a52901c.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Dialdroid Reporting</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header PDF -->
+      <div
+        class="bg-light d-flex justify-content-between align-items-center p-3"
+      >
+        <div class="d-flex align-items-center">
+          <div>
+            <h2><span style="color:#ff9931">D</span>ialyDroid Security</h2>
+            <p>dialtechnologies.net</p>
+          </div>
+        </div>
+        <div class="logo mx-auto">
+          <img src="" alt="" />
+        </div>
+        <div class=" text-right">
+          <h2 class="text-capitalize">
+            mobile app security audit
+          </h2>
+          <p class="text-capitalize">10 septembre 2019</p>
+        </div>
+      </div>
+
+      <!-- Infos App -->
+      <section>
+        <!-- Section Title -->
+        <div class="section-title section-title-border">
+          <h5>
+            Mobile Application Audit Summary
+          </h5>
+        </div>
+
+        <!-- Section body -->
+        <p class="section-title-sub m-0 p-0">POTENTIAL SECURITY</p>
+        <div class="row">
+          <div
+            class="col-md-9 d-flex flex-wrap analytics-app-status align-items-center"
+          >
+            <div class="bg-success">
+              <p>WARNING</p>
+              <p>10</p>
+            </div>
+            <div class="bg-warning">
+              <p>LOW RISK</p>
+              <p>33</p>
+            </div>
+            <div class="bg-orange">
+              <p>MEDIUM RISK</p>
+              <p>7</p>
+            </div>
+            <div class="bg-danger">
+              <p>HIGH RISK</p>
+              <p>0</p>
+            </div>
+          </div>
+          <div class="col-md-3 text-center">
+            <div class="progress-circle" data-progress="75"></div>
+          </div>
+        </div>
+
+        <p class="section-title-sub">INFORMATION APP</p>
+        <div class="Infos-app">
+          <div class="box">
+            <div class="icon-app"></div>
+          </div>
+          <div class="box">
+            <div class="group-info">
+              <p class="label">APP NAME</p>
+              <p class="data">My inwi</p>
+            </div>
+            <div class="group-info">
+              <p class="label">DEVICE TYPE</p>
+              <p class="data">Android</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="group-info">
+              <p class="label">APP ID</p>
+              <p class="data">ma.inwi.selfcaremobile</p>
+            </div>
+            <div class="group-info">
+              <p class="label">TEST STARTED</p>
+              <p class="data">October 3rd 2018, 18:18</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="group-info">
+              <p class="label">APP VERSION</p>
+              <p class="data">2.1.0</p>
+            </div>
+            <div class="group-info">
+              <p class="label">TEST FINISHED</p>
+              <p class="data">October 3rd 2018, 18:45</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Audit App -->
+      <section>
+        <!-- Section Title -->
+        <div class="section-title section-title-border">
+          <h5>
+            Android manifest Analyse Result
+          </h5>
+        </div>
+        <p class="section-title-sub">
+          The automated audit revealed the following security flaws and
+          weaknesses that may impact the application:
+        </p>
+
+        <div class="cardProperty cardProperty-success">
+          <span class="idCard">1</span>
+          <div class="item">
+            <p><i class="fas fa-shield-alt"></i>Property</p>
+            <div>
+              <h6 class="m-0 p-0">Debugging</h6>
+              <p class="text-muted">
+                The application does not generate debugging Messages.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="cardProperty cardProperty-success">
+          <span class="idCard">2</span>
+          <div class="item">
+            <p><i class="fas fa-shield-alt"></i>Property</p>
+            <div>
+              <h6 class="m-0 p-0">backup</h6>
+              <p class="text-muted">
+                The application does not create or restore a copy of its
+                internal data.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="cardProperty cardProperty-success">
+          <span class="idCard">3</span>
+          <div class="item">
+            <p><i class="fas fa-shield-alt"></i>Property</p>
+            <div>
+              <h6 class="m-0 p-0">android.permission.INTERNET</h6>
+              <p class="text-muted">
+                The application asks for a SAFE PERMISSION, this kind of
+                permission is granted automatically and do not violate the user
+                privacy.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="cardProperty cardProperty-success">
+          <span class="idCard">4</span>
+          <div class="item">
+            <p><i class="fas fa-shield-alt"></i>Property</p>
+            <div>
+              <h6 class="m-0 p-0">android.permission.ACCESS_NETWORK_STATE</h6>
+              <p class="text-muted">
+                The application asks for a SAFE PERMISSION, this kind of
+                permission is granted automatically and do not violate the user
+                privacy.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="cardProperty cardProperty-success">
+          <span class="idCard">5</span>
+          <div class="item">
+            <p><i class="fas fa-shield-alt"></i>Property</p>
+            <div>
+              <h6 class="m-0 p-0">com.android.vending.BILLING</h6>
+              <p class="text-muted">
+                The application asks for a SAFE PERMISSION, this kind of
+                permission is granted automatically and do not violate the user
+                privacy.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="cardProperty cardProperty-warning">
+          <span class="idCard">2</span>
+          <div class="item">
+            <p><i class="fas fa-shield-alt"></i>Property</p>
+            <div>
+              <h6 class="m-0 p-0">android.permission.WRITE_EXTERNAL_STORAGE</h6>
+              <p class="text-muted">
+                This permission Allows the application to write,modify or delete
+                the contents of the SD card
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <p><i class="fas fa-shield-alt"></i>Impact</p>
+            <div>
+              <h6 class="m-0 p-0">
+                Data stored in extrnal storage can be accessed by any
+                application with read access or modified by any application with
+                write access, this may violate data confidentiality and
+                integrity.
+              </h6>
+            </div>
+          </div>
+          <div class="item">
+            <p><i class="fas fa-thumbs-up"></i>Recommandation</p>
+            <div>
+              <h6 class="m-0 p-0">
+                it is highly recommended to use internal storag.
+              </h6>
+            </div>
+          </div>
+          <div class="item">
+            <p><i class="fas fa-file-code"></i>Location</p>
+            <div>
+              <h6 class="m-0 p-0">
+                AndroidManifest.xml
+              </h6>
+            </div>
+          </div>
+          <div class="item">
+            <p><i class="fas fa-code"></i>Screen</p>
+            <div class="code">
+              <code>
+                &lt;uses-permission
+                xmlns:ns0="http://schemas.android.com/apk/res/android"
+                ns0:maxSdkVersion="22"
+                ns0:name="android.permission.WRITE_EXTERNAL_STORAGE" /&gt;
+              </code>
+            </div>
+          </div>
+        </div>
+
+        <div class="cardProperty cardProperty-danger">
+          <span class="idCard">2</span>
+          <div class="item">
+            <p><i class="fas fa-shield-alt"></i>Property</p>
+            <div>
+              <h6 class="m-0 p-0">com.evernote.android.job.JobBootReceiver</h6>
+              <p class="text-muted">
+                the Broadcast receiver is exported but not protected by any
+                specific permission.
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <p><i class="fas fa-shield-alt"></i>Impact</p>
+            <div>
+              <h6 class="m-0 p-0">
+                Exporting services without any permission may lead to critical
+                features sharing with other application
+              </h6>
+            </div>
+          </div>
+          <div class="item">
+            <p><i class="fas fa-thumbs-up"></i>Recommandation</p>
+            <div>
+              <h6 class="m-0 p-0">
+                It is recommanded to define a permission when exporting a
+                service using android:permission parameter, this way you limit
+                the acces to applications services.
+              </h6>
+            </div>
+          </div>
+          <div class="item">
+            <p><i class="fas fa-file-code"></i>Location</p>
+            <div>
+              <h6 class="m-0 p-0">
+                AndroidManifest.xml
+              </h6>
+            </div>
+          </div>
+          <div class="item">
+            <p><i class="fas fa-code"></i>Screen</p>
+            <div class="code">
+              <code>
+                Line 43 : return O00000Oo(context, componentName2) == null ?
+                Intent.makeMainActivity(componentName2) : new
+                Intent().setComponent(componentName2);
+              </code>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
