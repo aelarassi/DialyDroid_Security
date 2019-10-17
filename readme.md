@@ -1,6 +1,8 @@
 # DialyDroid Security
 
-## Mobile App Security Audit #### [dialtechnologies.net](https://dialydroid.dialy.net/)
+## Mobile App Security Audit
+
+[dialtechnologies.net](https://dialydroid.dialy.net/)
 
 ## Demo
 
@@ -15,3 +17,7 @@
 [bootstrap]: https://getbootstrap.com/
 [ionicons]: https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css
 [fontawesome]: https://kit.fontawesome.com/dd1a52901c.js
+
+## Contributors
+
+:star2: [ABDELAZIZ EL ARASSI]
