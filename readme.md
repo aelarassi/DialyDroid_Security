@@ -1,10 +1,12 @@
-# DialyDroid Security
+# DialyDroid Security     [![Netlify Status](https://api.netlify.com/api/v1/badges/13c62e42-b635-4beb-b018-816030e9e22e/deploy-status)](https://app.netlify.com/sites/dialydroid-security/deploys)
 
 ## Mobile App Security Audit
 
 [dialtechnologies.net](https://dialydroid.dialy.net/)
 
 ## Demo
+
+[Online Demo](https://dialydroid-security.netlify.com/)
 
 ![](ScreenShot.jpg)
 
